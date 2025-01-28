@@ -5,3 +5,4 @@
 5-  cat datos.txt | awk -F, '{print $2, $4}' | grep .es$ |  awk -F" " '{print $1}'
 6-  cat datos.txt | sed 's/.com/.net/g'
 7-  cat datos.txt | awk -F, '{print $5}' | grep - | wc -l
+8-  cat datos.txt | awk -F, '$3 > 40 {print $2, $3}'
