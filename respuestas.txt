@@ -3,3 +3,4 @@
 3-  cat datos.txt | grep PROG | wc -l
 4-  cat datos.txt | grep PROG$ | wc -l
 5-  cat datos.txt | awk -F, '{print $2, $4}' | grep .es$ |  awk -F" " '{print $1}'
+6-  cat datos.txt | sed 's/.com/.net/g'
